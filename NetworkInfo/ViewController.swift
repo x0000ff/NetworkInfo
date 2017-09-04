@@ -43,4 +43,8 @@ class ViewController: NSViewController {
         pasteBoard.declareTypes([NSStringPboardType], owner: nil)
         pasteBoard.setString(string, forType: NSStringPboardType)
     }
+    
+    @IBAction func refresh(_ sender: Any) {
+        updateNetworkInformation()
+    }
 }
