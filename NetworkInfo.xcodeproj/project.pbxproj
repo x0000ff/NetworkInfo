@@ -11,7 +11,7 @@
 		5B2173F71F59117C0014646D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2173F61F59117C0014646D /* ViewController.swift */; };
 		5B2173F91F59117C0014646D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2173F81F59117C0014646D /* Assets.xcassets */; };
 		5B2173FC1F59117C0014646D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2173FA1F59117C0014646D /* Main.storyboard */; };
-		5B2174061F59151B0014646D /* NetworkInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2174051F59151B0014646D /* NetworkInformation.m */; };
+		5B3535611F900FA100E5C9F7 /* NetworkInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B35355F1F900FA000E5C9F7 /* NetworkInformation.m */; };
 		5BE5E9A31F591DEB00322DB8 /* NSWindow+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE5E9A21F591DEB00322DB8 /* NSWindow+Utils.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,8 +23,8 @@
 		5B2173FB1F59117C0014646D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B2173FD1F59117C0014646D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B2174031F59151A0014646D /* NetworkInfo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetworkInfo-Bridging-Header.h"; sourceTree = "<group>"; };
-		5B2174041F59151B0014646D /* NetworkInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkInformation.h; path = ../../../../Desktop/NetworkInformation.h; sourceTree = "<group>"; };
-		5B2174051F59151B0014646D /* NetworkInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkInformation.m; path = ../../../../Desktop/NetworkInformation.m; sourceTree = "<group>"; };
+		5B35355F1F900FA000E5C9F7 /* NetworkInformation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkInformation.m; sourceTree = "<group>"; };
+		5B3535601F900FA000E5C9F7 /* NetworkInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkInformation.h; sourceTree = "<group>"; };
 		5BE5E9A21F591DEB00322DB8 /* NSWindow+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSWindow+Utils.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,8 +58,8 @@
 		5B2173F31F59117C0014646D /* NetworkInfo */ = {
 			isa = PBXGroup;
 			children = (
-				5B2174041F59151B0014646D /* NetworkInformation.h */,
-				5B2174051F59151B0014646D /* NetworkInformation.m */,
+				5B3535601F900FA000E5C9F7 /* NetworkInformation.h */,
+				5B35355F1F900FA000E5C9F7 /* NetworkInformation.m */,
 				5B2173F41F59117C0014646D /* AppDelegate.swift */,
 				5B2173F61F59117C0014646D /* ViewController.swift */,
 				5BE5E9A21F591DEB00322DB8 /* NSWindow+Utils.swift */,
@@ -144,8 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B3535611F900FA100E5C9F7 /* NetworkInformation.m in Sources */,
 				5BE5E9A31F591DEB00322DB8 /* NSWindow+Utils.swift in Sources */,
-				5B2174061F59151B0014646D /* NetworkInformation.m in Sources */,
 				5B2173F71F59117C0014646D /* ViewController.swift in Sources */,
 				5B2173F51F59117C0014646D /* AppDelegate.swift in Sources */,
 			);
